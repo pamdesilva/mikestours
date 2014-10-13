@@ -1,0 +1,215 @@
+/**************************************************
+GENERAL
+**************************************************/
+
+body{
+  font-family: 'Open Sans' , sans-serif;
+}
+  
+.inner {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+
+/**************************************************
+HEADING
+**************************************************/
+
+header {
+
+}
+
+#logo {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Open sans' , sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: 'Open sans' , sans-serif;
+  font-weight: 500;
+  font-size: 0.9em;
+  margin-top: -3px;
+}
+  
+/**************************************************
+NAVIGATION
+**************************************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block; 
+}
+
+nav a {
+  font-weight: 300;
+  font-size: 1em;
+  padding: 15px 10px;
+}
+
+
+/**************************************************
+FOOTER
+**************************************************/
+
+.footerstripe {
+  text-align:center;
+  display:block;
+  width: 100%;
+  background-color:#378542;
+  overflow:auto;
+}
+
+.footerstripe p {
+    color: #ACA;
+    font-family: 'Raleway', sans-serif; 
+}
+/**************************************************
+COLORS
+**************************************************/
+
+/* site body */
+body {
+  background-color: #fff;
+  color: #999;
+}
+
+
+/* no color header */
+header 
+
+
+/* nav background on mobile */
+nav {
+  background-color: #165D30;
+}
+
+
+/* logo text */
+h1 {
+  color: #165D30;
+}
+
+h2 {
+  color: #ACA;
+}
+
+/* links */
+a {
+  color: #000;
+}
+
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+
+/* selected nav link */
+nav a.selected, nav a:hover {
+ color: #ACA; 
+}
+
+/**************************************************
+PAGE: HOME
+**************************************************/
+
+.aboutstripe {
+  display:block;
+  width: 100%;
+  background-color:#378542;
+  overflow:auto;
+}
+ 
+.indexpic {
+  float: left;
+  padding:10px;
+  background-color:#fff;
+  transform: rotate(-8deg);
+  height: 260px;
+  margin-top: 6%;
+  margin-right:6%;
+  margin-bottom: 2%;
+}
+
+.introtext {
+  font-family: 'Raleway', sans-serif;  
+  color: #ACA;
+  margin: 3% 0;
+  padding-top:3%;
+  font-size: 2em;
+  font-weight: 500;
+}
+  
+.introtext2 {
+  font-family: 'Raleway', sans-serif;  
+  color: #ACA;
+  margin: 3% 0;
+  font-size: 1.1em;
+  font-weight:100;
+  line-height:140%;
+}
+  
+.feedbackheader {
+  display: block;
+  font-size: 3em;
+  color: #ACA;
+  margin: 15px auto;
+}
+
+.feedback ul {
+  margin: 0;
+  display: block;
+  padding: 0;
+}
+
+.feedback li {
+  list-style: none;
+  display: inline-block;
+  width: 49.7%;
+  padding: 2.5%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.feedback li a p {
+  color: #165D30;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+}  
+
+.feedbackpic {
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+
+
+
+  
