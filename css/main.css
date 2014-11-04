@@ -4,6 +4,7 @@ GENERAL
 
 body{
   font-family: 'Open Sans' , sans-serif;
+  background-color: #fff;
 }
   
 .inner {
@@ -14,18 +15,13 @@ body{
 
 a {
   text-decoration: none;
+  color: #000;
 }
-
-
 
 
 /**************************************************
 HEADING
 **************************************************/
-
-header {
-
-}
 
 #logo {
   text-align: center;
@@ -33,14 +29,16 @@ header {
 
 h1 {
   font-family: 'Open sans' , sans-serif;
-  font-weight: 600;
+  font-weight: 800;
+  color: #01A2A6;
 }
 
-h2 {
+header a p {
   font-family: 'Open sans' , sans-serif;
   font-weight: 500;
   font-size: 0.9em;
   margin-top: -3px;
+  color:#2f2933;
 }
   
 /**************************************************
@@ -51,6 +49,7 @@ nav {
   text-align: center;
   padding: 10px 0;
   margin: 20px 0 0;
+  background-color: #2f2933;
 }
 
 nav ul {
@@ -69,6 +68,13 @@ nav a {
   padding: 15px 10px;
 }
 
+nav a, nav a:visited {
+  color: #fff;
+}
+
+nav a.selected, nav a:hover {
+ color: #01A2A6; 
+}
 
 /**************************************************
 FOOTER
@@ -78,59 +84,13 @@ FOOTER
   text-align:center;
   display:block;
   width: 100%;
-  background-color:#378542;
+  background-color:#2f2933;
   overflow:auto;
 }
 
 .footerstripe p {
-    color: #ACA;
+    color: #fff;
     font-family: 'Raleway', sans-serif; 
-}
-/**************************************************
-COLORS
-**************************************************/
-
-/* site body */
-body {
-  background-color: #fff;
-  color: #999;
-}
-
-
-/* no color header */
-header 
-
-
-/* nav background on mobile */
-nav {
-  background-color: #165D30;
-}
-
-
-/* logo text */
-h1 {
-  color: #165D30;
-}
-
-h2 {
-  color: #ACA;
-}
-
-/* links */
-a {
-  color: #000;
-}
-
-
-/* nav link */
-nav a, nav a:visited {
-  color: #fff;
-}
-
-
-/* selected nav link */
-nav a.selected, nav a:hover {
- color: #ACA; 
 }
 
 /**************************************************
@@ -140,7 +100,7 @@ PAGE: HOME
 .aboutstripe {
   display:block;
   width: 100%;
-  background-color:#378542;
+  background-color:#01A2A6;
   overflow:auto;
 }
  
@@ -157,7 +117,7 @@ PAGE: HOME
 
 .introtext {
   font-family: 'Raleway', sans-serif;  
-  color: #ACA;
+  color: #FFF;
   margin: 3% 0;
   padding-top:3%;
   font-size: 2em;
@@ -166,18 +126,60 @@ PAGE: HOME
   
 .introtext2 {
   font-family: 'Raleway', sans-serif;  
-  color: #ACA;
+  color: #FFF;
   margin: 3% 0;
   font-size: 1.1em;
   font-weight:100;
   line-height:140%;
 }
   
-.feedbackheader {
+h2, h3 {
   display: block;
   font-size: 3em;
-  color: #ACA;
+  color: #01A2A6;
   margin: 15px auto;
+  text-align: center;
+  padding-top:10%;
+}
+
+.funpackage p {
+  text-align:center;
+  font:'Raleway', sans-serif;
+  color:#000;
+}
+
+.funpackage li {
+  list-style: none;
+  display: inline-block;
+  width:33%;
+  vertical-align: top;
+}
+
+.funpackage li a p {
+  text-align: center;
+  font:'Raleway', sans-serif;
+  font-weight: 800;
+  color:#01A2A6;
+  padding-bottom:30px;
+}
+
+.funpackage p a {
+  color:white;
+}
+
+.packagepic {
+  max-height:250px;
+}
+
+
+.feedback {
+  padding-bottom:5%;
+}
+
+.feedback p {
+  text-align:center;
+  font:'Raleway', sans-serif;
+  color:#2f2933;
 }
 
 .feedback ul {
@@ -189,27 +191,54 @@ PAGE: HOME
 .feedback li {
   list-style: none;
   display: inline-block;
-  width: 49.7%;
+  width: 33%;
   padding: 2.5%;
   box-sizing: border-box;
   vertical-align: top;
 }
 
 .feedback li a p {
-  color: #165D30;
+  color: #2f2933;
   font-family: 'Raleway', sans-serif;
   line-height: 1.5;
+  font-size:0.9em;
 }  
 
 .feedbackpic {
   display: block;
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   margin: 0 auto 30px;
   border-radius: 100%;
 }
 
+.feedback p a {
+  color:white;
+}
 
+.button {
+  padding:15px;
+  background-color:#2f2933;
+  border-radius: 15px;
+}
+
+/**************************************************
+PAGE: PACKAGES
+**************************************************/
+
+
+
+
+/**************************************************
+PAGE: REVIEWS
+**************************************************/
+
+
+
+
+/**************************************************
+PAGE: CONTACT
+**************************************************/
 
 
   
