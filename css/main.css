@@ -109,7 +109,11 @@ PAGE: HOME
   float: left;
   padding:10px;
   background-color:#fff;
-  transform: rotate(-8deg);
+-webkit-transform:rotate(-8deg);
+   -moz-transform:rotate(-8deg);
+    -ms-transform:rotate(-8deg);
+     -o-transform:rotate(-8deg);
+        transform:rotate(-8deg);
   height: 260px;
   margin-top: 6%;
   margin-right:6%;
@@ -149,10 +153,8 @@ h2, h3 {
   background-color: #FFFFCB;
 }
 
-.funpackage p {
-  text-align:center;
-  font:'Raleway', sans-serif;
-  color:#000;
+.funpackage ul {
+  padding: 0;
 }
 
 .funpackage li {
@@ -160,6 +162,8 @@ h2, h3 {
   display: inline-block;
   width:33%;
   vertical-align: top;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .funpackage li a p {
@@ -170,13 +174,20 @@ h2, h3 {
   padding-bottom:30px;
 }
 
+.funpackage p {
+  text-align:center;
+  font:'Raleway', sans-serif;
+  color:#000;
+}
+
 .funpackage p a {
   color:white;
 }
 
 .packagepic {
-  max-height:250px;
+  max-width:100%;
   border: 4px solid #01A2A6;
+  box-sizing: border-box;
 }
 
 
