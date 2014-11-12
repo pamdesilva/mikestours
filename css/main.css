@@ -63,7 +63,7 @@ nav li {
 
 nav a {
   font-weight: 300;
-  font-size: 1em;
+  font-size: 1.1em;
   padding: 15px 10px;
 }
 
@@ -85,11 +85,16 @@ FOOTER
   width: 100%;
   background-color:#2f2933;
   overflow:auto;
+  padding: 30px 0;
 }
 
 .footerstripe p {
     color: #fff;
-    font-family: 'Raleway', sans-serif; 
+}
+
+.contactline {
+  color:#fff;
+  font-size: 1.2em;
 }
 
 /**************************************************
@@ -250,8 +255,6 @@ PAGE: PACKAGES
   padding-bottom:20px;
 }
   
-
-
 .tourpackagesteaser {
   display:block;
   width: 100%;
@@ -308,12 +311,58 @@ PAGE: PACKAGES
 PAGE: REVIEWS
 **************************************************/
 
+.reviews {
+  display:block;
+  width: 100%;
+  background-color:#FFFFCB;
+  overflow:auto;
+  padding-bottom: 50px;
+}
 
+.reviews ul {
+  margin: 0;
+  display: block;
+  padding: 0;
+}
+
+.reviews li {
+  list-style: none;
+  display: inline-block;
+  width: 33%;
+  padding: 2.5%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+
+.reviews img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+  border:6px solid whitesmoke;
+}
+
+.reviews li a p {
+  color: #2f2933;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  font-size:0.9em;
+  text-align: center;
+}  
 
 
 /**************************************************
 PAGE: CONTACT
 **************************************************/
 
+.contact {
+  padding-bottom: 30px;
+}
+
+.contact p {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
 
   
