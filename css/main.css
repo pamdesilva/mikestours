@@ -363,6 +363,8 @@ PAGE: CONTACT
 .contact p {
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  line-height: 2;
+  font-size:1.2em; 
 }
 
   
