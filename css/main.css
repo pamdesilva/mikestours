@@ -23,22 +23,21 @@ a {
 HEADING
 **************************************************/
 
-#logo {
+.headerlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+
+}
+
+h1, h2 {
+  display: block;
+  font-size: 3em;
+  color: #2f2933;
+  margin: 15px auto;
   text-align: center;
-}
-
-h1 {
-  font-family: 'Open sans' , sans-serif;
-  font-weight: 800;
-  color: #01A2A6;
-}
-
-header a p {
-  font-family: 'Open sans' , sans-serif;
-  font-weight: 500;
-  font-size: 0.9em;
-  margin-top: -3px;
-  color:#2f2933;
+  padding-top:50px;
 }
   
 /**************************************************
@@ -138,15 +137,6 @@ PAGE: HOME
   line-height:140%;
 }
   
-h2, h3 {
-  display: block;
-  font-size: 3em;
-  color: #2f2933;
-  margin: 15px auto;
-  text-align: center;
-  padding-top:10%;
-}
-
 .funpackage {
   padding-bottom: 100px;
   padding-top: 5px;
