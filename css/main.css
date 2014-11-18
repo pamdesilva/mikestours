@@ -23,6 +23,10 @@ a {
 HEADING
 **************************************************/
 
+header {
+  background: url('img/headerlogo.jpg') no-repeat;
+}
+
 .headerlogo {
   display: block;
   margin-left: auto;
@@ -125,12 +129,11 @@ PAGE: HOME
 }
 
 .introtext {
-  font-family: 'Raleway', sans-serif;  
   color: #FFF;
   margin: 3% 0;
   padding-top:3%;
-  font-size: 2em;
-  font-weight: 500;
+  font-size: 3em;
+  font-weight: 700;
 }
   
 .introtext2 {
@@ -167,6 +170,7 @@ PAGE: HOME
   font-weight: 600;
   color:#01A2A6;
   padding-bottom:30px;
+  font-size: 1.2em;
 }
 
 .funpackage p {
@@ -215,7 +219,6 @@ PAGE: HOME
   color: #2f2933;
   font-family: 'Raleway', sans-serif;
   line-height: 1.5;
-  font-size:0.9em;
 }  
 
 .feedbackpic {
@@ -250,7 +253,6 @@ PAGE: PACKAGES
 
 .underheading {
   text-align:center;
-  font-family: 'Raleway', sans-serif; 
   line-height:0;
   padding-bottom:20px;
 }
@@ -274,25 +276,23 @@ PAGE: PACKAGES
   display: inline-block;
   width:33%;
   vertical-align: top;
-  padding: 0 20px;
+  padding: 40px 30px;
   box-sizing: border-box;
 }
 
 .tourpackages img {
-  width: 270px;
-  height: 270px;
+  display: block;
+  width:100%;
   padding: 3px;
-  background-color: whitesmoke;
   margin: 25px 0;
-  border-radius: 20px;
+  border-radius: 40%;
+  border: 3px solid whitesmoke;
 }
 
 .tourpackages p {
-  text-align:justify;
-  width: 290px;
-  padding-bottom: 40px;
-  font-size:0.8em;
+  margin-bottom: 10px;
 }
+
 
 .packageprice {
   vertical-align: top;
@@ -303,6 +303,43 @@ PAGE: PACKAGES
   background-color:#01A2A6;
   border-radius: 15px;
   color: white;
+  font-weight: 600;
+}
+
+
+.wrapper {
+  margin: 100px 0;
+}
+
+h3 {
+  display: block;
+  font-size: 2em;
+  color: #2f2933;
+  margin: 15px auto;
+}
+
+h4 {
+  font-size: 1.6em;
+  font-weight: 800;
+}
+.tourinfo p, li {
+  font-size:0.9em;
+  line-height:1.8em;
+}
+
+.detailsbox {
+  max-width:100%;
+  height:auto;
+  background-color:#2f2933;
+  padding: 10px 30px;
+  margin: 20px 0;
+  box-shadow: 20px 10px #FFFFCB;
+}
+
+.detailsbox p {
+  color: whitesmoke;
+  font-family: 'Raleway', sans-serif; 
+  font-size:0.9em;
 }
   
 
